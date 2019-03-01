@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Lato bold';
+    src: url('../assets/fonts/lato-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato regular';
+    src: url('../assets/fonts/lato-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Maven Pro regular';
+    src: url('../assets/fonts/mavenpro-regular-webfont.woff') format('woff');
+}
