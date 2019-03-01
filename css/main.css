@@ -1,0 +1,15 @@
+@import 'fonts.css';
+
+body {
+    font-family: 'Lato regular';
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+}
