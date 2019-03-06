@@ -80,6 +80,12 @@ header::before {
   width: 980px;
 }
 
+.about-container {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 820px;
+}
+
 .hexagon {
   width: 180px;
   height: 210px;
