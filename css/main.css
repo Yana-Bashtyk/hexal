@@ -36,7 +36,7 @@ ul, li, a {
   justify-content: space-between;
   align-items: center;
   margin: 0;
-  padding: 9px 0 0;
+  padding: 7px 0 0;
 }
 
 .nav-bar li,
@@ -79,7 +79,7 @@ main {
   content: '';
   position: absolute;
   top: 40px;
-  left: 50%;
+  left: 549px;
   width: 0;
   height: 0;
   border-style: solid;
@@ -90,7 +90,7 @@ main {
 
 .hexagon-container {
   max-width: 980px;
-  margin: 80px auto;
+  margin: 82px auto;
 }
 
 .about {
@@ -104,6 +104,7 @@ main {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  padding: 48px 0 64px;
 }
 
 .hexagon {
@@ -129,11 +130,11 @@ main {
 }
 
 .hex-1 {
-  background: 53% 88%  url('../assets/images/Layer33.png') no-repeat;
+  background: 53% 74% url('../assets/images/Layer33.png') no-repeat;
 }
 
 .hex-2 {
-  background: 50% 60%  url('../assets/images/Layer31.png') no-repeat;
+  background: 51% 65%  url('../assets/images/Layer31.png') no-repeat;
 }
 
 .hex-3 {
@@ -145,7 +146,7 @@ main {
 }
 
 .hex-5 {
-  background: 54% 100%  url('../assets/images/Layer36.png') no-repeat;
+  background: 54% 95%  url('../assets/images/Layer36.png') no-repeat;
 }
 
 .hex-6 {
@@ -173,11 +174,15 @@ main {
 }
 
 .hex-12 {
-  background: 48% 46%  url('../assets/images/Layer43.png') no-repeat;
+  background: 48% 40% url('../assets/images/Layer43.png') no-repeat;
 }
 
 .hex-13 {
-  background: 23% 49%  url('../assets/images/Layer42.png') no-repeat;
+  background: 23% 41% url('../assets/images/Layer42.png') no-repeat;
+}
+
+.hex-avatar {
+  background: 46% 47% url('../assets/images/Image.png') no-repeat;
 }
 
 .hex-first-row {
@@ -185,7 +190,17 @@ main {
 }
 
 .hex-middle-row {
-  width: 997px;
+  margin-top: -53px;
+  width: 999px;
+}
+
+.hex-last-row {
+  margin-left: 99px;
+  margin-top: -53px;
+}
+
+.content-area {
+  width: 582px;
 }
 
 .social-list {
@@ -203,6 +218,7 @@ main {
   height: 40px;
   font-size: 0.9rem;
 }
+
 footer {
   width: 100%;
 }
@@ -224,4 +240,9 @@ footer {
 .form {
   max-width: 820px;
   margin: 0 auto;
+}
+
+fieldset {
+  display: flex;
+  flex-flow: column nowrap;
 }
