@@ -574,3 +574,184 @@ button[type=submit] {
   font-family: 'Maven Pro regular';
   color: #454545;  
 }
+
+@media (max-width: 930px) {
+  .nav-bar::before,
+  .nav-bar::after {
+    width: 200px;
+  }
+
+  .hexagon-container::after {
+    top: 1285px;
+    left: 80px;
+
+    width: 720px;
+  }
+
+  .content-area {
+    width: 480px;
+  }
+
+  .social-list {
+    margin: 36px 0 0 285px;
+  }
+
+  .about-container::before {
+    right: -10px;
+  }
+  
+  .about-container::after {
+    left: -10px;
+  }
+
+  .form::before,
+  .form::after {
+    width: 720px;
+  }
+
+  .hex-middle-row {
+    width: 765px;
+  }
+
+}
+
+@media (max-width: 687px) {
+  .hexagon-container::after {
+    left: 25px;
+
+    width: 640px;
+  }
+
+  .form::before,
+  .form::after {
+    width: 640px;
+  }
+
+  .content-area {
+    width: 370px;
+  }
+
+  .social-list {
+    margin: 36px 0 0 160px;
+  }
+
+  form {
+    width: 475px;
+  }
+
+  .form input, .form textarea {
+    width: 440px;
+  }
+
+  .hex-middle-row {
+    max-width: 687px;
+  }
+}
+
+@media (max-width: 630px) {
+  .nav-bar::before,
+  .nav-bar::after {
+    width: 150px;
+  }
+  
+  .hex-middle-row {
+    max-width: 490px;
+  }
+
+  .hexagon-container::after {
+    top: 1510px;
+    left: 95px;
+
+    width: 420px;
+  }
+
+  .form::before,
+  .form::after {
+    width: 420px;
+  }
+
+  .content-area {
+    width: 252px;
+  }
+
+  .social-list {
+    margin: 36px 0 0 30px;
+  }
+
+  .form input, .form textarea {
+    width: 225px;
+  }
+}
+
+@media (max-width: 395px) {
+  .nav-bar {
+    max-width: 300px;
+  }
+
+  .nav-bar-list::before {
+    left: 75px;
+  }
+
+  .item-logo {
+    left: 130px;
+  }
+
+  .nav-item:nth-child(2) {
+    padding-right: 80px;
+  }
+
+  .nav-bar::before {
+    right: 205px;
+  }
+
+  .nav-bar::after {
+    left: 205px;
+  }
+
+  .nav-bar::before,
+  .nav-bar::after {
+    width: 85px;
+  }
+
+  .hex-middle-row {
+    max-width: 320px;
+  }
+
+  .hexagon-container::after {
+    top: 2835px;
+    left: 40px;
+  
+    width: 290px;
+  }
+
+  .form::before,
+  .form::after {
+    width: 290px;
+  }
+
+  .about-container {
+    flex-flow: column nowrap;
+  }
+
+  .about-container::before,
+  .about-container::after {
+    position: absolute;
+  }
+
+  .about-container::before {
+    right: 300px;
+  }
+
+  .about-container::after {
+    left: 300px;
+  }
+
+  .form {
+    flex-flow: column nowrap;
+  }
+
+  form {
+    width: 242px;
+  }
+
+}
