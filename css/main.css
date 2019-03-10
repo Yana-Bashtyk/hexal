@@ -27,6 +27,18 @@ header {
   background-color: #323232;
 }
 
+.item-logo h1 {
+  position: absolute;
+  top: -10px;
+  left: -6px;
+
+  margin: 0;
+
+  font-size: 14px;
+
+  visibility: hidden;
+}
+
 .nav-bar {
   position: relative;
 
@@ -339,7 +351,7 @@ main {
   width: 590px;
 }
 
-.about-container h1 {
+.about-container h2 {
   margin: 34px 0 0 -1px;
   
   font-size: 30px;
@@ -351,6 +363,7 @@ main {
 
 .about-prof {
   font-size: 18px;
+  font-weight: normal;
   line-height: 10px;
   color: #20816d;
 }
@@ -371,11 +384,11 @@ main {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  margin: 36px 0 0 392px;
+  margin: 36px 0 0 393px;
 }
 
 .social-list li {
-  width: 25px;
+  width: 24px;
 
   font-size: 0.9rem;
 }
@@ -734,6 +747,7 @@ button[type=submit] {
   .about-container::before,
   .about-container::after {
     position: absolute;
+    top: 3015px;
   }
 
   .about-container::before {
