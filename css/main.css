@@ -67,8 +67,7 @@ header {
 .nav-item a:hover,
 .nav-item a:active,
 .foot-contact .icon a:hover,
-.foot-contact .icon a:active
-{
+.foot-contact .icon a:active {
   color: #2eaa91;
 }
 
@@ -80,8 +79,7 @@ header {
   margin-right: -5px;
 }
 
-.item-logo img:hover
-{
+.item-logo img:hover {
   width: 62px;
   height: 62px;
 }
@@ -474,6 +472,7 @@ form {
 
   color: #e0e0e0;
 }
+
 .foot-contact p {
   margin: 0;
 }
@@ -612,7 +611,6 @@ button[type=submit] {
   .hex-middle-row {
     width: 765px;
   }
-
 }
 
 @media (max-width: 687px) {
@@ -753,5 +751,4 @@ button[type=submit] {
   form {
     width: 242px;
   }
-
 }
