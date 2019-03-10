@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="./css/main.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <title>Hexlet</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="./css/main.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <title>Hexlet</title>
 </head>
 <body>
   <div class="wrapper">
-    
     <header>
       <nav class="nav-bar">
         <ul class="nav-bar-list">
-          <li class="nav-item"><a href="#">Portfolio</a></li>
-          <li class="nav-item"><a href="#">About</a></li>
+          <li class="nav-item">
+            <a href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">About</a>
+          </li>
           <li class="nav-item item-logo">
             <a href="#" >
             <img  src="./assets/images/Logo.png" alt="Logo" width="62px" height="53px">
             </a>
           </li>
-          <li class="nav-item"><a href="#">Blog</a></li>
-          <li class="nav-item"><a href="#">Get in touch</a></li>
+          <li class="nav-item">
+            <a href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Get in touch</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -99,12 +106,14 @@
             </div>
           </div>
         </div>
-        <div class="slider-dots"><span id="slide2"></span>
-        <span id="slide3"></span>
-        <span id="slide4"></span>
-        <span id="slide5"></span>
-        <span id="slide5"></span>
-        <span id="slide5"></span></div>
+        <div class="slider-dots">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </section>
       <section class="about">
         <article class="about-container">
@@ -118,21 +127,45 @@
               Smith Anderson
             </h1>
             <p class="about-prof">Illustrator & Character Designer</p>
-            <p class="about-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Mauris porttitor, nibh at sagittis tristique, enim magna pretium 
-              augue, eget consectetur sem dui non urna. Integer gravida, diam 
-              congue molestie fringilla, elit odio rhoncus turpis, ac dictum 
+            <p class="about-description">Lorem ipsum dolor sit amet, consectetur 
+              adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim 
+              magna pretium augue, eget consectetur sem dui non urna. Integer gravida, 
+              diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum 
               libero elit vel metus. Morbi egestas sit amet velit eget venenatis. 
               Mauris porttitor, nibh at sagittis tristique, enim magna pretium 
               augue, eget consectetur sem dui non urna</p>
-              <ul class="social-list">
-                <li><a class="social-item" href="https://www.facebook.com/" target="_blank"><span class="icon-facebook"></span></a></li>
-                <li><a class="social-item" href="https://twitter.com/" target="_blank"><span class="icon-twitter"></span></a></li>
-                <li><a class="social-item" href="https://plus.google.com/" target="_blank"><span class="icon-gplus"></span></a></li>
-                <li><a class="social-item" href="https://www.pinterest.com/" target="_blank"><span class="icon-pinterest"></span></a></li>
-                <li><a class="social-item" href="https://www.linkedin.com/" target="_blank"><span class="icon-linkedin"></span></a></li>
-                <li><a class="social-item" href="https://dribbble.com/" target="_blank"><span class="icon-dribbble"></span></a></li>
-              </ul>
+            <ul class="social-list">
+              <li>
+                <a class="social-item" href="https://www.facebook.com/" target="_blank">
+                  <span class="icon-facebook"></span>
+                </a>
+              </li>
+              <li>
+                <a class="social-item" href="https://twitter.com/" target="_blank">
+                  <span class="icon-twitter"></span>
+                </a>
+              </li>
+              <li>
+                <a class="social-item" href="https://plus.google.com/" target="_blank">
+                  <span class="icon-gplus"></span>
+                </a>
+              </li>
+              <li>
+                <a class="social-item" href="https://www.pinterest.com/" target="_blank">
+                  <span class="icon-pinterest"></span>
+                </a>
+              </li>
+              <li>
+                <a class="social-item" href="https://www.linkedin.com/" target="_blank">
+                  <span class="icon-linkedin"></span>
+                </a>
+              </li>
+              <li>
+                <a class="social-item" href="https://dribbble.com/" target="_blank">
+                  <span class="icon-dribbble"></span>
+                </a>
+              </li>
+            </ul>
           </div>
         </article>
       </section>
@@ -152,14 +185,24 @@
           <button type="submit">Send</button>
         </form>
         <div class="foot-contact">
-          <p class="foot-contact-description"><strong>Quisque Hendrerit:</strong> purus dapibus, 
+          <p class="foot-contact-description">
+            <strong>Quisque Hendrerit:</strong> purus dapibus, 
             ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. 
             Proin sit amet volutpat libero. Nulla sed nunc et tortor 
             luctus faucibus morbi vitae.
           </p>
-          <p class="icon"><span class="icon-location"></span> Elm St. 14/05 Lost City</p>
-          <p class="icon"><span class="icon-phone"></span> <a href="tel:+375283318635">+ 3528 331 86 35</a></p>
-          <p class="icon"><span class="icon-mail"></span> <a href="mailto:info@hexalcorp.com">info@hexalcorp.com</a></p>
+          <p class="icon">
+            <span class="icon-location"></span> 
+            Elm St. 14/05 Lost City
+          </p>
+          <p class="icon">
+            <span class="icon-phone"></span> 
+            <a href="tel:+375283318635">+ 3528 331 86 35</a>
+          </p>
+          <p class="icon">
+            <span class="icon-mail"></span> 
+            <a href="mailto:info@hexalcorp.com">info@hexalcorp.com</a>
+          </p>
         </div>
       </div>
       </section>
